@@ -1,136 +1,218 @@
 # animacao_2D
-Briefing do Personagem  Cowboy
+# BRIEFING — PERSONAGEM COWBOY
+**Projeto de Animação 2D**
 
-1. Conceito do personagem
+**Desenvolvido por:** Rafael Girardi e Marcos Paulo
 
-Nome provisório: Cowboy
-Estilo visual: Silhueta (Thumbnail)
-Perspectiva: Visão lateral
-Tema: Velho Oeste
-Arma principal: Corda com laço
+---
 
-Descrição geral
+## 1. CONTEXTO
+**Jogo, gênero, público e plataforma**
 
-O personagem é um cowboy do Velho Oeste que utiliza uma corda com laço como sua principal arma de ataque.
-Seu visual será composto por um chapéu de cowboy, lenço no pescoço, botas, cinto e uma corda presa à cintura.
-A personalidade do personagem será representada por movimentos confiantes, postura descontraída e agilidade ao utilizar o laço.
+- **Projeto:** Animação de personagem para jogo 2D.
+- **Temática:** Velho Oeste.
+- **Gênero proposto:** Ação e aventura.
+- **Público-alvo:** Jogadores que apreciam jogos 2D de ação.
+- **Plataforma de desenvolvimento:** Unity 6.
+- **Software de animação:** Krita.
 
-2. Descrição das animações
+O projeto consiste no desenvolvimento de um personagem cowboy, com oito animações que representam seus principais estados e ações.
 
-Idle 1 - Parado (Respiração)
+O objetivo é aplicar os princípios fundamentais da animação 2D, produzindo movimentos fluidos, expressivos e visualmente compreensíveis.
 
-O cowboy permanece em sua posição inicial, com as pernas ligeiramente afastadas e uma das mãos próxima ao cinto.
+## 2. PERSONAGEM
+**Quem é, idade, personalidade e objetos**
 
-	•	O peito e os ombros se movimentam suavemente, simulando a respiração.
-	•	O corpo apresenta pequenas oscilações verticais.
-	•	O lenço acompanha discretamente o movimento.
-	•	A corda permanece presa à cintura.
+- **Nome provisório:** Cowboy.
+- **Identidade:** Pistoleiro do Velho Oeste especializado no uso de laço.
+- **Idade aparente:** Adulto, aproximadamente 30 a 40 anos.
+- **Personalidade:** Confiante, descontraído, habilidoso e ágil.
+- **Arma principal:** Corda com laço.
+- **Acessórios:** Chapéu de cowboy, lenço no pescoço, cinto, botas e corda presa à cintura.
 
-Objetivo: Demonstrar que o personagem está vivo, mesmo quando não está realizando nenhuma ação.
+**Descrição:**
 
-Idle 2 - Parado (Ajustando o chapéu)
+O personagem é um cowboy que utiliza uma corda com laço como sua principal ferramenta de combate.
 
-O cowboy realiza uma ação característica enquanto aguarda.
+Sua personalidade será transmitida principalmente por suas ações, incluindo postura relaxada durante o repouso, movimentos confiantes ao caminhar e agilidade ao realizar ataques.
 
-	•	Começa na posição de descanso.
-	•	Levanta lentamente uma das mãos em direção ao chapéu.
-	•	Inclina levemente a cabeça e ajusta a aba do chapéu.
-	•	Abaixa o braço e retorna à postura inicial.
+O chapéu, o lenço e a corda também terão importância na animação, apresentando movimentos secundários que reforçam a sensação de peso, velocidade e naturalidade.
 
-Objetivo: Transmitir personalidade e diferenciar a segunda animação de repouso da primeira.
+## 3. ESTILO VISUAL
+**Referências, paleta e traço**
 
-Walk (Caminhada)
+- **Estilo artístico:** Silhueta 2D (Thumbnail).
+- **Perspectiva:** Visão lateral (Side View).
+- **Paleta de cores:** Preto para a silhueta, com fundo claro para facilitar a visualização.
+- **Traço:** Formas simples, contornos bem definidos e proporções consistentes.
+- **Referências visuais:** Cowboys do Velho Oeste, movimentos de laço e animações de personagens em jogos 2D.
 
-O cowboy caminha em ritmo moderado, com passos firmes e descontraídos.
+**Direção artística:**
 
-	•	As pernas se alternam durante os passos.
-	•	Os braços balançam em oposição às pernas.
-	•	O tronco apresenta uma leve oscilação vertical.
-	•	O lenço e a corda balançam conforme o deslocamento.
-	•	O chapéu acompanha suavemente o movimento da cabeça.
+O personagem será representado por uma silhueta, priorizando a leitura das poses e dos movimentos sem depender de detalhes internos.
 
-Objetivo: Criar uma caminhada natural, com transferência de peso entre as pernas.
+Os elementos característicos, especialmente o chapéu e a corda, devem permanecer reconhecíveis durante todas as animações.
 
-Run (Corrida)
+A movimentação será construída com base nos princípios clássicos da animação, incluindo antecipação, arcos, squash e stretch, timing, spacing e movimentos secundários.
 
-O cowboy corre de maneira mais rápida e dinâmica.
+## 4. ANIMAÇÕES PEDIDAS
+**Lista de ações, movimentos e prioridades**
 
-	•	O tronco se inclina para a frente.
-	•	Os braços se movimentam de forma mais intensa.
-	•	As pernas realizam passadas maiores, incluindo momentos em que os dois pés ficam fora do chão.
-	•	O lenço se projeta para trás devido à velocidade.
-	•	A corda acompanha o movimento com atraso, balançando para trás.
+Serão desenvolvidas oito animações:
 
-Objetivo: Transmitir velocidade, impulso e sensação de peso durante a corrida.
+### 1. Idle 1 — Respiração
+**Prioridade: Média**
 
-Jump (Pulo)
+O cowboy permanece parado, com as pernas afastadas e uma das mãos próxima ao cinto.
 
-O cowboy realiza um salto vertical, dividido em preparação, impulso, subida, queda e aterrissagem.
+- Peito e ombros se movimentam suavemente.
+- O corpo apresenta pequenas oscilações verticais.
+- O lenço acompanha discretamente a respiração.
+- A corda permanece presa à cintura.
 
-	•	Preparação: Flexiona os joelhos e abaixa o corpo.
-	•	Impulso: Estica rapidamente as pernas para saltar.
-	•	Subida: O corpo sobe enquanto o lenço e a corda ficam levemente para baixo.
-	•	Queda: O personagem começa a descer, e os acessórios acompanham a mudança de direção com atraso.
-	•	Aterrissagem: Flexiona os joelhos ao tocar o chão, absorvendo o impacto, e retorna à posição inicial.
+**Objetivo:** Demonstrar que o personagem está vivo mesmo quando não realiza ações.
 
-Objetivo: Demonstrar os princípios de antecipação, gravidade, aceleração e desaceleração.
+### 2. Idle 2 — Ajustando o chapéu
+**Prioridade: Média**
 
-Attack (Ataque com laço)
+O cowboy realiza uma ação característica de sua personalidade.
 
-O cowboy utiliza sua corda para realizar um ataque em direção à frente.
+- Parte da postura de descanso.
+- Levanta uma das mãos em direção ao chapéu.
+- Inclina a cabeça e ajusta a aba.
+- Abaixa o braço e retorna à posição inicial.
 
-	•	Antecipação: Afasta uma das pernas, gira o tronco e posiciona o braço com a corda para trás.
-	•	Preparação: Levanta o braço e começa a girar o laço acima da cabeça.
-	•	Ataque: Realiza um movimento rápido com o braço, lançando o laço para a frente.
-	•	Extensão: A corda se desenrola e o laço se abre durante o lançamento, seguindo uma trajetória em arco.
-	•	Recuperação: O cowboy puxa a corda de volta e retorna à postura inicial.
+**Objetivo:** Transmitir personalidade por meio de uma ação secundária.
 
-Durante o ataque, o chapéu, o lenço e a corda apresentam movimentos secundários, acompanhando a aceleração e a desaceleração do corpo.
-Objetivo: Criar um ataque expressivo e fluido, destacando a trajetória do laço, a antecipação e a continuidade dos movimentos.
+### 3. Walk — Caminhada
+**Prioridade: Alta**
 
-Hit (Recebendo dano)
+O cowboy caminha com passos firmes e descontraídos.
 
-O cowboy reage ao receber um impacto vindo da frente.
+- As pernas se alternam durante os passos.
+- Os braços balançam em oposição às pernas.
+- O tronco apresenta oscilação vertical.
+- O lenço e a corda acompanham o deslocamento.
 
-	•	O tronco é projetado rapidamente para trás.
-	•	A cabeça acompanha o impacto com um pequeno atraso.
-	•	Os braços se afastam do corpo.
-	•	Uma das pernas recua para recuperar o equilíbrio.
-	•	O chapéu se inclina e o lenço acompanha o movimento.
-	•	Após uma breve recuperação, o personagem retorna à postura inicial.
+**Objetivo:** Representar uma caminhada natural, demonstrando transferência de peso.
 
-Objetivo: Transmitir a força de um impacto por meio da reação corporal e da perda momentânea de equilíbrio.
+### 4. Run — Corrida
+**Prioridade: Alta**
 
-Dead (Morte)
+O personagem acelera e corre de forma dinâmica.
 
-O cowboy recebe um golpe fatal, perde o equilíbrio e cai no chão.
+- Inclina o tronco para a frente.
+- Realiza passadas maiores e mais rápidas.
+- Apresenta momentos com os dois pés fora do chão.
+- O lenço e a corda se projetam para trás com atraso.
 
-	•	O corpo sofre uma reação inicial ao impacto.
-	•	O personagem cambaleia para trás, tentando se equilibrar.
-	•	Os joelhos cedem e o corpo começa a cair.
-	•	Durante a queda, o chapéu se desprende da cabeça.
-	•	O cowboy atinge o chão e permanece imóvel.
-	•	A corda e o chapéu continuam se movimentando brevemente após a queda, até pararem completamente.
+**Objetivo:** Transmitir velocidade, impulso e sensação de peso.
 
-Objetivo: Representar a perda de equilíbrio e uma queda convincente, utilizando gravidade, peso e movimentos secundários.
+### 5. Jump — Pulo
+**Prioridade: Média**
 
-3. Direção de animação
+O cowboy realiza um salto vertical dividido em cinco etapas.
 
-Todas as animações serão produzidas em 2D, utilizando o Krita e mantendo a consistência visual do personagem.
+- **Preparação:** Flexiona os joelhos.
+- **Impulso:** Estende as pernas rapidamente.
+- **Subida:** O corpo se eleva e os acessórios acompanham com atraso.
+- **Queda:** O personagem desce sob ação da gravidade.
+- **Aterrissagem:** Flexiona os joelhos para absorver o impacto.
 
-O foco será a aplicação dos princípios de animação, como:
+**Objetivo:** Aplicar antecipação, gravidade, aceleração, desaceleração e squash e stretch.
 
-Antecipação: preparação antes de saltos e ataques.
-Squash e Stretch: compressão e extensão do corpo durante movimentos e impactos.
-Arcos: trajetórias naturais dos braços e principalmente da corda.
-Follow Through e Overlapping Action: continuidade e atraso dos movimentos do lenço, chapéu e corda.
-Timing e Spacing: controle da velocidade, aceleração e desaceleração.
-Silhueta: poses claras, permitindo identificar cada ação mesmo sem detalhes internos.
+### 6. Attack — Ataque com laço
+**Prioridade: Média**
 
-4. Implementação
-As oito animações serão organizadas em sprite sheets e exportadas individualmente como GIFs animados.
-Os arquivos originais serão preservados no formato do Krita, e as animações serão implementadas na Unity 6, permitindo visualizar os diferentes estados do personagem.
+O cowboy utiliza sua corda para atacar à frente.
 
+- **Antecipação:** Afasta uma perna, gira o tronco e posiciona o braço para trás.
+- **Preparação:** Levanta o braço e gira o laço acima da cabeça.
+- **Ataque:** Lança rapidamente o laço para a frente.
+- **Extensão:** A corda se desenrola e forma um arco.
+- **Recuperação:** Recolhe a corda e retorna à postura inicial.
 
+O chapéu, o lenço e a corda apresentam movimentos secundários conforme a aceleração e a desaceleração.
 
-Projeto Desenvolvido por Rafael Girardi e Marcos Paulo
+**Objetivo:** Criar um ataque expressivo e fluido, destacando a trajetória do laço.
+
+### 7. Hit — Recebendo dano
+**Prioridade: Média**
+
+O cowboy reage a um impacto frontal.
+
+- O tronco é projetado para trás.
+- A cabeça acompanha o impacto com atraso.
+- Os braços se afastam do corpo.
+- Uma das pernas recua para recuperar o equilíbrio.
+- O chapéu e o lenço acompanham a reação.
+
+**Objetivo:** Demonstrar o impacto e a perda momentânea de equilíbrio.
+
+### 8. Dead — Morte
+**Prioridade: Média**
+
+O cowboy recebe um golpe fatal e cai no chão.
+
+- Reage inicialmente ao impacto.
+- Cambaleia para trás.
+- Os joelhos cedem e o corpo começa a cair.
+- O chapéu se desprende durante a queda.
+- O personagem atinge o chão e permanece imóvel.
+- A corda e o chapéu continuam se movimentando brevemente antes de parar.
+
+**Objetivo:** Representar uma queda convincente, utilizando gravidade, peso e movimentos secundários.
+
+## 5. REQUISITOS TÉCNICOS
+**Tamanho, FPS, formato e nomes**
+
+- **Software:** Krita.
+- **Motor de jogo:** Unity 6.
+- **Tipo de animação:** 2D
+- **Perspectiva:** Lateral.
+- **Pivô:** Base dos Pés, ao centro
+- **Resolução:** 256x256
+- **FPS:** 24 FPS
+- **Formato de apresentação:** GIF animado.
+- **Organização:** Sprite sheets individuais.
+- **Arquivo editável:** Formato `.kra` do Krita.
+- **Exportação para Unity:** Sequências de sprites em PNG.
+
+**Padrão de nomenclatura:**
+
+- `Cowboy_Idle01`
+- `Cowboy_Idle02`
+- `Cowboy_Walk`
+- `Cowboy_Run`
+- `Cowboy_Jump`
+- `Cowboy_Attack`
+- `Cowboy_Hit`
+- `Cowboy_Dead`
+
+**Critérios técnicos:**
+
+As animações devem manter consistência nas proporções do personagem, continuidade visual, poses legíveis e aplicação dos princípios fundamentais da animação.
+
+As animações cíclicas, como Idle, Walk e Run, devem apresentar transições suaves entre o último e o primeiro quadro.
+
+## 6. ENTREGAS E IMPLEMENTAÇÃO
+**Organização dos arquivos e resultado esperado**
+
+O projeto terá como entregáveis:
+
+- Oito animações do personagem Cowboy.
+- Oito GIFs animados, um para cada ação.
+- Sprite sheets organizadas individualmente.
+- Arquivos originais editáveis do Krita.
+- Implementação dos estados de animação na Unity 6.
+
+**Resultado esperado:**
+
+Desenvolver um personagem 2D com movimentos consistentes, expressivos e funcionais, demonstrando o domínio dos princípios de animação.
+
+O foco principal será a clareza das poses, a fluidez dos movimentos e o comportamento físico dos acessórios, especialmente a corda utilizada durante o ataque.
+
+**Referências:**
+https://canva.link/xmgmrgo7lf41t37
+
+**Projeto desenvolvido por Rafael Girardi e Marcos Paulo.**
